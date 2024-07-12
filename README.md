@@ -12,11 +12,11 @@ These instructions will get you a copy of the project up and running on your loc
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/keshavgarg24/hth_assess.git ```
+   git clone https://github.com/keshavgarg24/hth_assess.git 
 
 2. Then do the following commands
 
     ```bash
    cd your_project
    npm install 
-   npm start ```
+   npm start 
