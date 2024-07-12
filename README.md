@@ -19,4 +19,10 @@ These instructions will get you a copy of the project up and running on your loc
     ```bash
    cd your_project
    npm install 
-   npm start 
+   npm start
+
+### Demo Link 
+
+  I have added a deployed link to check how it should look like 
+  link : https://nba-card-eight.vercel.app
+
