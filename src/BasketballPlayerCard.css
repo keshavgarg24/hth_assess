@@ -1,0 +1,94 @@
+body {
+    background-color: #0b60ad; 
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .App-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  
+  .player-card {
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
+    color: #0b60ad;
+    transition: transform 0.2s;
+  }
+  
+  .player-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .player-image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .player-name {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #e23a3a; 
+  }
+  
+  .player-position {
+    color: #333;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+  
+  .player-stats p {
+    margin: 5px 0;
+  }
+  
+  @media (max-width: 600px) {
+    .player-card {
+      width: 90%;
+      padding: 10px;
+    }
+  
+    .player-name {
+      font-size: 1.2em;
+    }
+  
+    .player-position {
+      font-size: 1em;
+    }
+  
+    .player-stats p {
+      font-size: 0.9em;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .player-card {
+      width: 45%;
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .player-card {
+      width: 30%;
+    }
+  }
+  
